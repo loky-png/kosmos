@@ -1,0 +1,131 @@
+<html>
+
+<!-- 01.02.26 -->
+<!-- Ctrl + S - сохранить файл -->    
+<!-- Alt + B - запустить сайт -->
+<!-- Ctrl + / - закоментировать выделенную область  --> 
+<!-- h1,h2,h3.... h6 - заголовки сайта -->   
+<!-- p - параграф, кусок текста -->
+<!-- a - атрибуты -->
+<!-- button - кнопка -->
+<!-- img - картинка -->
+<!-- b - жирный текст, i - курсивный текст, u - подчеркнутый текст, s - зачеркуный текст -->
+<!-- ul - список, li - строка в списке -->
+<!-- table - таблица, tr - строка в таблице, td - столбец в таблице -->
+    
+<head>
+</head>
+<body>
+    
+    <h1>Телеграм это круто</h1>
+
+    <h2>а знаете почему?</h2>
+
+    <p>
+        <a href="https://ru.wikipedia.org/wiki/Telegram">Telegram</a> — самое популярное приложение для обмена мгновенными сообщениями в некоторых странах Европы, Азии и Африки. 
+        По словам Павла Дурова, на начало 2023 года Telegram стал вторым после WhatsApp мессенджером в мире по популярности. 
+        По состоянию на 19 марта 2025 года Telegram насчитывает более 1 миллиарда ежемесячных активных пользователей, по количеству пользователей лидирует Индия. 
+        Серверы Telegram расположены по всему миру в нескольких дата-центрах, а штаб-квартира находится в Дубае, Объединённые Арабские Эмираты.       
+    </p>  
+
+    
+    
+    <a href="https://web.telegram.org/a/">
+        <button class="tg">Войти в Телеграм</button>
+    </a>
+ 
+    <p>
+       <b>Павел Дуров</b></a>, <i>активно выступающий за свободу интернета</i>, утверждает, что <u>Telegram</u> <s>имеет высокую степень конфиденциальности данных</s>. 
+        По оценкам СМИ, такая политика конфиденциальности привлекла в Telegram террористов, экстремистов, мошенников, торговцев оружием и наркотиками. 
+        По данным Surfshark, всего Telegram временно или бессрочно блокировали в 31 стране. 
+        Расследование, связанное с организованной преступностью в Telegram стало причиной уголовного преследования Павла Дурова во Франции в 2024 году.
+    </p>
+    <br><br><br>
+    <img src="images/pasha.webp">
+    <br><br>
+
+    <a href="">
+        <button class="cursdurov">Купить курсы Паши Дурова</button>
+    </a>
+
+</body>
+</html>
+
+
+<!-- тег со стилями -->
+<style>
+
+    body{
+        text-align: center;
+        background: 
+        linear-gradient(to right, rgba(0, 225, 255, 0.5), rgba(50, 175, 137, 0.5)),
+        linear-gradient(rgba(101, 86, 155, 0.7) 25%, rgba(97, 211, 173, 0.7) 75%);
+    }
+
+    .cursdurov{
+        padding: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        color: rgb(71, 90, 126);
+        border: none;
+        border-radius: 25px;
+        background-color: rgb(24, 48, 63);
+        color: aliceblue;
+    }
+
+    .tg {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /* Внутренний отступ */
+
+        padding: 20px; /* Внутренний отступ со всех сотрон сразу */
+        padding: 20px 10px; /* Сверху-снизу по 20 пикселей, слева-справа по 10 пикселей */
+        padding: 10px 20px 10px 20px;
+        margin: 0px 20px; /* Внешний отступ */
+        border: none; /* Убрать обводку */
+        background-color: rgb(71, 90, 126);  /* Цвет фона */
+        color: white; /* Цвет текста */
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border-radius: 15px; /* Скругление углов */
+        font-weight: 100;
+    }
+
+    img{
+        border-radius: 75px;
+        width: 500px;
+        border: 5px solid rgb(71, 90, 126);
+    }
+
+    h1{
+        color: rgb(71, 90, 126);       /* Цвет текста */
+        font-size: 60px;                 /* Размер текста */
+        font-weight: 500;                /* Толщина шрифта */
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Шрифт */
+        text-align: center;
+        text-transform: uppercase;
+   }
+
+   h2{
+        color: rgb(59, 72, 99);       /* Цвет текста */
+        font-size: 45px;                 /* Размер текста */
+        font-weight: 900;                /* Толщина шрифта */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Шрифт */
+        text-align: center;
+        text-transform: uppercase;
+   }
+
+   p{
+        color: rgb(32, 32, 32);
+        font-weight:  300;;    
+        font-family: Arial, Helvetica, sans-serif;
+   }
+
+   a{
+        color: rgb(71, 90, 126);  
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: none;
+   }
+
+</style>
