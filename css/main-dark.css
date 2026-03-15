@@ -1,3 +1,13 @@
+body{
+    background-color: rgb(61, 61, 61);
+    margin: 0; /* Отключение отступа снаружи страницы*/
+}
+
+a, p, .btn-all, h1, h2, h3{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
 .sec1{
     width: 80%;
     height: 92vh;
@@ -10,6 +20,36 @@
     justify-content: center;
     background-image: url("../images/bg.jpg");
     background-size: cover;
+}
+
+.themes{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.themes > #theme-toggle{
+    background-color: rgb(211, 211, 211);
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#purple{
+    background-color: purple;
+}
+
+.themes > button{
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
 }
 
 .sec1 > h1{
@@ -89,7 +129,7 @@ button:hover{
     box-shadow: 0 0 20px rgba(98, 97, 177, 0.500);
 }
 
-button{
+.btn-all{
     border: none;
     width: 125px;
     height: 65px;
@@ -164,6 +204,20 @@ button{
     display: flex;
     justify-content: space-between;
     margin: 20px 0 20px 0;
+}
+
+.sec4{
+    width: 80%;
+    padding: 10% 10%;
+    display: flex;
+    gap: 3.5%;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sec4 > h2{
+    margin: 0 ;
 }
 
 .sec4 > .row > img{

@@ -1,17 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap');
 
-a, p, button, h1, h2, h3{
-    font-family: "Montserrat", sans-serif;
-    color: rgb(255, 255, 255);
-}
-
 a{
     text-decoration: none;
-}
-
-body{
-    background-color: rgb(61, 61, 61);
-    margin: 0; /* Отключение отступа снаружи страницы*/
 }
 
 header{

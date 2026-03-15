@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link id="theme-link" rel="stylesheet" href="css/main-dark.css">
     <title>Minecraft</title>
     <link rel="shortcut icon" href="images/mc.jpg" type="image/x-icon">
 </head>
@@ -16,6 +16,12 @@
             <a href="shop.html">Магазин</a>
             <a href="play.html">Играть</a>
         </nav>
+        <div class="themes">
+             <button id="theme-toggle">☀️</button>
+             <button id="green">💚</button>
+             <button id="blue">💙</button>
+             <button id="purple">💜</button>
+        </div>
     </header>
     <main>
         <section class="sec1">
@@ -39,7 +45,7 @@
                 <p>Minecraft — это 3D-«песочница», разработанная компанией Mojang Studios, где игрок взаимодействует с игровым миром через размещение и разрушение различных блоков в трёх разных измерениях. Разнообразный игровой процесс позволяет игрокам самим выбирать пути прохождения игры, открывая бесчисленные возможности.
                 Minecraft имеет четыре поддерживаемых издания: Java Edition, Bedrock Edition, Education Edition и China Edition.</p>
                 <a href="play.html">
-                    <button>Играть</button>
+                    <button class="btn-all">Играть</button>
                 </a>
             </div>
         </section>
@@ -48,21 +54,21 @@
                 <img src="images/img1.webp" alt="изображение товара">
                 <p>Крутой донат, сигма слово пацана 100%, покупай админку</p>
                 <a href="item.html">
-                    <button>Купить</button>
+                    <button class="btn-all">Купить</button>
                 </a>
             </div>
             <div class="card">
                 <img src="images/img2.avif" alt="изображение товара">
                 <p>Крутой донат, сигма слово пацана 100%, покупай админку</p>
                 <a href="item.html">
-                    <button>Купить</button>
+                    <button class="btn-all">Купить</button>
                 </a>
             </div>
             <div class="card">
                 <img src="images/img3.webp" alt="изображение товара">
                 <p>Крутой донат, сигма слово пацана 100%, покупай админку</p>
                 <a href="item.html">
-                    <button>Купить</button>
+                    <button class="btn-all">Купить</button>
                 </a>
             </div>
         </section>
@@ -108,5 +114,8 @@
         </div>
         </div>
     </footer>
+
+    <script src="js/theme.js"></script>
+    <script src="js/color-switcher.js"></script>
 </body>
 </html>

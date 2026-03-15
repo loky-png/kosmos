@@ -1,0 +1,244 @@
+body{
+    background-color: rgb(216, 216, 216);
+    margin: 0; /* Отключение отступа снаружи страницы*/
+}
+
+header > nav > a{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(59, 59, 59);
+}
+
+a, p, .btn-all, h1, h2, h3{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.sec1{
+    width: 80%;
+    height: 92vh;
+    /* vh - занимает % экрана, на котором открыли сайт */
+    padding: 0px 10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
+
+.themes{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.themes > #theme-toggle{
+    background-color: rgb(53, 53, 53);
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#purple{
+    background-color: purple;
+}
+
+.themes > button{
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+}
+
+.sec1 > h1{
+    color: rgb(226, 224, 233);
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: rgba(0, 0, 0, 0.405) 0px 0px 15px;
+    margin-bottom: 0;
+}
+
+.play-btn{
+    border: none;
+    width: 125px;
+    height: 65px;
+    padding: 10px;
+    margin: 0px 25px;
+    border-radius: 12px;
+    background: linear-gradient(285deg, rgb(86, 85, 126), rgb(73, 69, 73));
+    text-shadow: rgba(0, 0, 0, 0.750) 0px 0px 15px;
+    transition: all 0.5s ease;
+}
+.buy-btn{
+    border: none;
+    width: 125px;
+    height: 65px;
+    margin: 0px 25px;
+    padding: 10px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, rgb(86, 85, 126), rgb(73, 69, 73));
+    text-shadow: rgba(0, 0, 0, 0.750) 0px 0px 15px;
+    transition: all 0.5s ease;
+}
+
+.btn-sec1{
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.desc-sec1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.sec1{
+    width: 80%;
+    height: 95vh;
+    /* vh - занимает % экрана, на котором открыли сайт */
+    padding: 0px 10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
+
+.sec2{
+    width: 80%;
+    height: 105vh;
+    /* vh - занимает % экрана, на котором открыли сайт */
+    padding: 0px 10%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/sec2-bg.jpg");
+    background-size: cover;
+}
+/* hover - изменение стилей при наведение */
+button:hover{
+    box-shadow: 0 0 20px rgba(98, 97, 177, 0.500);
+}
+
+.btn-all{
+    border: none;
+    width: 125px;
+    height: 65px;
+    margin: 0px 25px;
+    padding: 10px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, rgb(86, 85, 126), rgb(73, 69, 73));
+    text-shadow: rgba(0, 0, 0, 0.750) 0px 0px 15px;
+    transition: all 0.5s ease;
+}
+
+.shadow-sec{
+    text-shadow: rgba(0, 0, 0, 0.750) 0px 0px 15px;
+}
+
+.left-img{
+    border-radius: 25px;
+}
+
+.right-conetent{
+    width: 35%;
+    font-size: 70px;
+    letter-spacing: 5px;
+    color: rgb(133, 133, 133);
+    margin: 0;
+}
+
+.right-conetent > h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sec3{
+    display: flex;
+    width: 80%;
+    padding: 10%;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: rgb(71, 70, 75);
+    border-radius: 25px;
+    padding:  15px 0 15px 0;
+    text-align: center;
+    font-size: 11px;
+}
+
+.card > img{
+    width: 90%;
+    border-radius: 25px;
+}
+
+.card > p{
+    margin-bottom: 50px;
+}
+
+.card > a > button{
+    width: 90%;
+}
+
+.sec4{
+    background: linear-gradient(45deg, rgb(86, 85, 126), rgb(73, 69, 73));
+    margin: 0;
+}
+
+.sec4 > h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+.sec4{
+    width: 80%;
+    padding: 10% 10%;
+    display: flex;
+    gap: 3.5%;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sec4 > h2{
+    margin: 0 ;
+}
+
+.sec4 > .row > img{
+    border-radius: 20px;
+    border: solid 5px rgb(83, 86, 90);
+}
+
+.sec4 > .row > img:hover{
+        box-shadow: 0 0 20px rgba(98, 97, 177, 0.500);
+}
+.sec4 > a > .btn-view{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
