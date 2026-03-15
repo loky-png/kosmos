@@ -43,8 +43,16 @@ footer{
     background-color: rgb(29, 29, 29);
     height: 30vh; /* Задать фиксировапнную высоту шапки */
     padding: 0px 10%;
-  
     display: flex; /* Задать адаптивное отображение на экране */
     justify-content: space-between;
     align-items: center;
+}
+
+footer > .column{
+    display: flex;
+    flex-direction: column;
+}
+
+footer > .column > a{
+    padding: 5px 10px;
 }
